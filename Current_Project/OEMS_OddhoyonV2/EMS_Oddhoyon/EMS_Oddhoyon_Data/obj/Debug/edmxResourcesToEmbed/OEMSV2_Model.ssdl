@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="oemsbdv2_bmsc_dbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="oemsbdv2_bmsc_dbModelStoreContainer">
+    <EntitySet Name="Tbl_DateTime" EntityType="oemsbdv2_bmsc_dbModel.Store.Tbl_DateTime" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tbl_Events" EntityType="oemsbdv2_bmsc_dbModel.Store.Tbl_Events" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tbl_Gallery" EntityType="oemsbdv2_bmsc_dbModel.Store.Tbl_Gallery" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tbl_News" EntityType="oemsbdv2_bmsc_dbModel.Store.Tbl_News" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tbl_Notice" EntityType="oemsbdv2_bmsc_dbModel.Store.Tbl_Notice" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Qry_EmployeeBasicInfo" EntityType="oemsbdv2_bmsc_dbModel.Store.Qry_EmployeeBasicInfo" store:Type="Views" store:Schema="dbo" store:Name="Qry_EmployeeBasicInfo">
+      <DefiningQuery>SELECT 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_EmployeeID] AS [EmployeeBasicInfo_EmployeeID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_Name] AS [EmployeeBasicInfo_Name], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_DesignationID] AS [EmployeeBasicInfo_DesignationID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_IsClassTeacher] AS [EmployeeBasicInfo_IsClassTeacher], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_TypeID] AS [EmployeeBasicInfo_TypeID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_BranchID] AS [EmployeeBasicInfo_BranchID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_ShiftID] AS [EmployeeBasicInfo_ShiftID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_DepartmentID] AS [EmployeeBasicInfo_DepartmentID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_SubjectID] AS [EmployeeBasicInfo_SubjectID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_JoiningDate] AS [EmployeeBasicInfo_JoiningDate], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_StatusID] AS [EmployeeBasicInfo_StatusID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_Image] AS [EmployeeBasicInfo_Image], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_FatherName] AS [EmployeeBasicInfo_FatherName], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_MotherName] AS [EmployeeBasicInfo_MotherName], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_Nationality] AS [EmployeeBasicInfo_Nationality], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_Religion] AS [EmployeeBasicInfo_Religion], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_BloodGroup] AS [EmployeeBasicInfo_BloodGroup], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_DateOfBirth] AS [EmployeeBasicInfo_DateOfBirth], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_NationalID] AS [EmployeeBasicInfo_NationalID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_Contact] AS [EmployeeBasicInfo_Contact], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_PresentAddress] AS [EmployeeBasicInfo_PresentAddress], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_PresentPost] AS [EmployeeBasicInfo_PresentPost], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_PresentThana] AS [EmployeeBasicInfo_PresentThana], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_PresentDistrict] AS [EmployeeBasicInfo_PresentDistrict], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_PermanentAddress] AS [EmployeeBasicInfo_PermanentAddress], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_PermanentPost] AS [EmployeeBasicInfo_PermanentPost], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_PermanentThana] AS [EmployeeBasicInfo_PermanentThana], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_PermanentDistrict] AS [EmployeeBasicInfo_PermanentDistrict], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_Status] AS [EmployeeBasicInfo_Status], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_InstituteAccount] AS [EmployeeBasicInfo_InstituteAccount], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_GovtAccount] AS [EmployeeBasicInfo_GovtAccount], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_IsGovtSalaryActive] AS [EmployeeBasicInfo_IsGovtSalaryActive], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_GovtSalaryGrade] AS [EmployeeBasicInfo_GovtSalaryGrade], 
+      [Qry_EmployeeBasicInfo].[Designation_Name] AS [Designation_Name], 
+      [Qry_EmployeeBasicInfo].[EmployeeType_Name] AS [EmployeeType_Name], 
+      [Qry_EmployeeBasicInfo].[EmployeeDepartment_Name] AS [EmployeeDepartment_Name], 
+      [Qry_EmployeeBasicInfo].[EmployeeStatus_Name] AS [EmployeeStatus_Name], 
+      [Qry_EmployeeBasicInfo].[ShiftSetup_Name] AS [ShiftSetup_Name], 
+      [Qry_EmployeeBasicInfo].[Branch_Name] AS [Branch_Name], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_ID] AS [EmployeeBasicInfo_ID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_SectionID] AS [EmployeeBasicInfo_SectionID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_DbOperationStatus] AS [EmployeeBasicInfo_DbOperationStatus], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_CategoryID] AS [EmployeeBasicInfo_CategoryID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_VersionID] AS [EmployeeBasicInfo_VersionID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_Gender] AS [EmployeeBasicInfo_Gender], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_MaritalStatus] AS [EmployeeBasicInfo_MaritalStatus], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_EmergencyContactAddress] AS [EmployeeBasicInfo_EmergencyContactAddress], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_EmergencyTandTNo] AS [EmployeeBasicInfo_EmergencyTandTNo], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_MobileNo] AS [EmployeeBasicInfo_MobileNo], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_Email] AS [EmployeeBasicInfo_Email], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_SMSNotificationNo] AS [EmployeeBasicInfo_SMSNotificationNo], 
+      [Qry_EmployeeBasicInfo].[EmployeeSubject_Name] AS [EmployeeSubject_Name], 
+      [Qry_EmployeeBasicInfo].[Version_Name] AS [Version_Name], 
+      [Qry_EmployeeBasicInfo].[CategoryName] AS [CategoryName], 
+      [Qry_EmployeeBasicInfo].[EmployeeSection_Name] AS [EmployeeSection_Name], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_EmpDeviceUserID] AS [EmployeeBasicInfo_EmpDeviceUserID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_CardNo] AS [EmployeeBasicInfo_CardNo], 
+      [Qry_EmployeeBasicInfo].[EmployeeShift_ID] AS [EmployeeShift_ID], 
+      [Qry_EmployeeBasicInfo].[EmployeeShift_Name] AS [EmployeeShift_Name]
+      FROM [dbo].[Qry_EmployeeBasicInfo] AS [Qry_EmployeeBasicInfo]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <EntityType Name="Tbl_DateTime">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DateTimeVal" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Tbl_Events">
+    <Key>
+      <PropertyRef Name="Events_ID" />
+    </Key>
+    <Property Name="Events_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Events_Title" Type="nvarchar" MaxLength="50" />
+    <Property Name="Events_Description" Type="nvarchar(max)" />
+    <Property Name="Events_Location" Type="nvarchar" MaxLength="50" />
+    <Property Name="Events_StartDate" Type="datetime" />
+    <Property Name="Events_EndDate" Type="datetime" />
+    <Property Name="Exents_ExpireDate" Type="datetime" />
+    <Property Name="Events_Status" Type="nchar" MaxLength="1" />
+    <Property Name="Events_AddBy" Type="int" />
+    <Property Name="Events_AddDate" Type="datetime" />
+    <Property Name="Events_UpdateBy" Type="int" />
+    <Property Name="Events_UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Tbl_Gallery">
+    <Key>
+      <PropertyRef Name="Gallery_ID" />
+    </Key>
+    <Property Name="Gallery_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Gallery_Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="Photo_Path" Type="nvarchar(max)" />
+    <Property Name="Video_Path" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Tbl_News">
+    <Key>
+      <PropertyRef Name="News_ID" />
+    </Key>
+    <Property Name="News_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="News_Title" Type="nvarchar" MaxLength="50" />
+    <Property Name="News_Description" Type="nvarchar(max)" />
+    <Property Name="News_ExpireDate" Type="datetime" />
+    <Property Name="News_Status" Type="nchar" MaxLength="1" />
+    <Property Name="News_AddBy" Type="int" />
+    <Property Name="News_AddDate" Type="datetime" />
+    <Property Name="News_UpdateBy" Type="int" />
+    <Property Name="News_UpdateDate" Type="datetime" />
+    <Property Name="News_PublishDate" Type="datetime" />
+    <Property Name="News_Picture" Type="image" />
+  </EntityType>
+  <EntityType Name="Tbl_Notice">
+    <Key>
+      <PropertyRef Name="Notice_ID" />
+    </Key>
+    <Property Name="Notice_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Notice_Title" Type="nvarchar" MaxLength="50" />
+    <Property Name="Notice_Description" Type="nvarchar(max)" />
+    <Property Name="Notice_ExpireDate" Type="datetime" />
+    <Property Name="Notice_Status" Type="nchar" MaxLength="1" />
+    <Property Name="Notice_IsScroll" Type="bit" />
+    <Property Name="Notice_AddBy" Type="int" />
+    <Property Name="Notice_AddDate" Type="datetime" />
+    <Property Name="Notice_UpdateBy" Type="int" />
+    <Property Name="Notice_UpdateDate" Type="datetime" />
+    <Property Name="Notice_PublishDate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'trsc_db.dbo.Qry_EmployeeBasicInfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Qry_EmployeeBasicInfo">
+    <Key>
+      <PropertyRef Name="EmployeeBasicInfo_DesignationID" />
+      <PropertyRef Name="EmployeeBasicInfo_IsClassTeacher" />
+      <PropertyRef Name="EmployeeBasicInfo_TypeID" />
+      <PropertyRef Name="EmployeeBasicInfo_BranchID" />
+      <PropertyRef Name="EmployeeBasicInfo_ShiftID" />
+      <PropertyRef Name="EmployeeBasicInfo_DepartmentID" />
+      <PropertyRef Name="EmployeeBasicInfo_SubjectID" />
+      <PropertyRef Name="EmployeeBasicInfo_JoiningDate" />
+      <PropertyRef Name="EmployeeBasicInfo_StatusID" />
+      <PropertyRef Name="EmployeeBasicInfo_DateOfBirth" />
+      <PropertyRef Name="EmployeeBasicInfo_IsGovtSalaryActive" />
+      <PropertyRef Name="EmployeeBasicInfo_GovtSalaryGrade" />
+      <PropertyRef Name="EmployeeDepartment_Name" />
+      <PropertyRef Name="ShiftSetup_Name" />
+      <PropertyRef Name="Branch_Name" />
+      <PropertyRef Name="EmployeeBasicInfo_ID" />
+      <PropertyRef Name="EmployeeBasicInfo_SectionID" />
+      <PropertyRef Name="EmployeeBasicInfo_DbOperationStatus" />
+      <PropertyRef Name="EmployeeSubject_Name" />
+      <PropertyRef Name="Version_Name" />
+    </Key>
+    <Property Name="EmployeeBasicInfo_EmployeeID" Type="nchar" MaxLength="10" />
+    <Property Name="EmployeeBasicInfo_Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmployeeBasicInfo_DesignationID" Type="int" Nullable="false" />
+    <Property Name="EmployeeBasicInfo_IsClassTeacher" Type="bit" Nullable="false" />
+    <Property Name="EmployeeBasicInfo_TypeID" Type="int" Nullable="false" />
+    <Property Name="EmployeeBasicInfo_BranchID" Type="int" Nullable="false" />
+    <Property Name="EmployeeBasicInfo_ShiftID" Type="int" Nullable="false" />
+    <Property Name="EmployeeBasicInfo_DepartmentID" Type="int" Nullable="false" />
+    <Property Name="EmployeeBasicInfo_SubjectID" Type="int" Nullable="false" />
+    <Property Name="EmployeeBasicInfo_JoiningDate" Type="datetime" Nullable="false" />
+    <Property Name="EmployeeBasicInfo_StatusID" Type="int" Nullable="false" />
+    <Property Name="EmployeeBasicInfo_Image" Type="image" />
+    <Property Name="EmployeeBasicInfo_FatherName" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmployeeBasicInfo_MotherName" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmployeeBasicInfo_Nationality" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmployeeBasicInfo_Religion" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmployeeBasicInfo_BloodGroup" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmployeeBasicInfo_DateOfBirth" Type="datetime" Nullable="false" />
+    <Property Name="EmployeeBasicInfo_NationalID" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmployeeBasicInfo_Contact" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmployeeBasicInfo_PresentAddress" Type="nvarchar" MaxLength="500" />
+    <Property Name="EmployeeBasicInfo_PresentPost" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmployeeBasicInfo_PresentThana" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmployeeBasicInfo_PresentDistrict" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmployeeBasicInfo_PermanentAddress" Type="nvarchar" MaxLength="500" />
+    <Property Name="EmployeeBasicInfo_PermanentPost" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmployeeBasicInfo_PermanentThana" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmployeeBasicInfo_PermanentDistrict" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmployeeBasicInfo_Status" Type="nvarchar" MaxLength="2" />
+    <Property Name="EmployeeBasicInfo_InstituteAccount" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmployeeBasicInfo_GovtAccount" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmployeeBasicInfo_IsGovtSalaryActive" Type="bit" Nullable="false" />
+    <Property Name="EmployeeBasicInfo_GovtSalaryGrade" Type="int" Nullable="false" />
+    <Property Name="Designation_Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmployeeType_Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmployeeDepartment_Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EmployeeStatus_Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="ShiftSetup_Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Branch_Name" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="EmployeeBasicInfo_ID" Type="int" Nullable="false" />
+    <Property Name="EmployeeBasicInfo_SectionID" Type="int" Nullable="false" />
+    <Property Name="EmployeeBasicInfo_DbOperationStatus" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="EmployeeBasicInfo_CategoryID" Type="int" />
+    <Property Name="EmployeeBasicInfo_VersionID" Type="int" />
+    <Property Name="EmployeeBasicInfo_Gender" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmployeeBasicInfo_MaritalStatus" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmployeeBasicInfo_EmergencyContactAddress" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmployeeBasicInfo_EmergencyTandTNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmployeeBasicInfo_MobileNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmployeeBasicInfo_Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmployeeBasicInfo_SMSNotificationNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmployeeSubject_Name" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="Version_Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmployeeSection_Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="EmployeeBasicInfo_EmpDeviceUserID" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmployeeBasicInfo_CardNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmployeeShift_ID" Type="int" />
+    <Property Name="EmployeeShift_Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+</Schema>

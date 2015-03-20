@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="oemsbdv2_bmsc_dbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="oemsbdv2_bmsc_dbModelStoreContainer">
+          <EntitySet Name="Tbl_DateTime" EntityType="oemsbdv2_bmsc_dbModel.Store.Tbl_DateTime" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tbl_Events" EntityType="oemsbdv2_bmsc_dbModel.Store.Tbl_Events" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tbl_Gallery" EntityType="oemsbdv2_bmsc_dbModel.Store.Tbl_Gallery" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tbl_News" EntityType="oemsbdv2_bmsc_dbModel.Store.Tbl_News" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tbl_Notice" EntityType="oemsbdv2_bmsc_dbModel.Store.Tbl_Notice" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Qry_EmployeeBasicInfo" EntityType="oemsbdv2_bmsc_dbModel.Store.Qry_EmployeeBasicInfo" store:Type="Views" store:Schema="dbo" store:Name="Qry_EmployeeBasicInfo">
+            <DefiningQuery>SELECT 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_EmployeeID] AS [EmployeeBasicInfo_EmployeeID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_Name] AS [EmployeeBasicInfo_Name], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_DesignationID] AS [EmployeeBasicInfo_DesignationID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_IsClassTeacher] AS [EmployeeBasicInfo_IsClassTeacher], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_TypeID] AS [EmployeeBasicInfo_TypeID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_BranchID] AS [EmployeeBasicInfo_BranchID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_ShiftID] AS [EmployeeBasicInfo_ShiftID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_DepartmentID] AS [EmployeeBasicInfo_DepartmentID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_SubjectID] AS [EmployeeBasicInfo_SubjectID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_JoiningDate] AS [EmployeeBasicInfo_JoiningDate], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_StatusID] AS [EmployeeBasicInfo_StatusID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_Image] AS [EmployeeBasicInfo_Image], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_FatherName] AS [EmployeeBasicInfo_FatherName], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_MotherName] AS [EmployeeBasicInfo_MotherName], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_Nationality] AS [EmployeeBasicInfo_Nationality], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_Religion] AS [EmployeeBasicInfo_Religion], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_BloodGroup] AS [EmployeeBasicInfo_BloodGroup], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_DateOfBirth] AS [EmployeeBasicInfo_DateOfBirth], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_NationalID] AS [EmployeeBasicInfo_NationalID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_Contact] AS [EmployeeBasicInfo_Contact], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_PresentAddress] AS [EmployeeBasicInfo_PresentAddress], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_PresentPost] AS [EmployeeBasicInfo_PresentPost], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_PresentThana] AS [EmployeeBasicInfo_PresentThana], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_PresentDistrict] AS [EmployeeBasicInfo_PresentDistrict], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_PermanentAddress] AS [EmployeeBasicInfo_PermanentAddress], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_PermanentPost] AS [EmployeeBasicInfo_PermanentPost], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_PermanentThana] AS [EmployeeBasicInfo_PermanentThana], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_PermanentDistrict] AS [EmployeeBasicInfo_PermanentDistrict], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_Status] AS [EmployeeBasicInfo_Status], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_InstituteAccount] AS [EmployeeBasicInfo_InstituteAccount], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_GovtAccount] AS [EmployeeBasicInfo_GovtAccount], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_IsGovtSalaryActive] AS [EmployeeBasicInfo_IsGovtSalaryActive], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_GovtSalaryGrade] AS [EmployeeBasicInfo_GovtSalaryGrade], 
+      [Qry_EmployeeBasicInfo].[Designation_Name] AS [Designation_Name], 
+      [Qry_EmployeeBasicInfo].[EmployeeType_Name] AS [EmployeeType_Name], 
+      [Qry_EmployeeBasicInfo].[EmployeeDepartment_Name] AS [EmployeeDepartment_Name], 
+      [Qry_EmployeeBasicInfo].[EmployeeStatus_Name] AS [EmployeeStatus_Name], 
+      [Qry_EmployeeBasicInfo].[ShiftSetup_Name] AS [ShiftSetup_Name], 
+      [Qry_EmployeeBasicInfo].[Branch_Name] AS [Branch_Name], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_ID] AS [EmployeeBasicInfo_ID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_SectionID] AS [EmployeeBasicInfo_SectionID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_DbOperationStatus] AS [EmployeeBasicInfo_DbOperationStatus], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_CategoryID] AS [EmployeeBasicInfo_CategoryID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_VersionID] AS [EmployeeBasicInfo_VersionID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_Gender] AS [EmployeeBasicInfo_Gender], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_MaritalStatus] AS [EmployeeBasicInfo_MaritalStatus], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_EmergencyContactAddress] AS [EmployeeBasicInfo_EmergencyContactAddress], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_EmergencyTandTNo] AS [EmployeeBasicInfo_EmergencyTandTNo], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_MobileNo] AS [EmployeeBasicInfo_MobileNo], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_Email] AS [EmployeeBasicInfo_Email], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_SMSNotificationNo] AS [EmployeeBasicInfo_SMSNotificationNo], 
+      [Qry_EmployeeBasicInfo].[EmployeeSubject_Name] AS [EmployeeSubject_Name], 
+      [Qry_EmployeeBasicInfo].[Version_Name] AS [Version_Name], 
+      [Qry_EmployeeBasicInfo].[CategoryName] AS [CategoryName], 
+      [Qry_EmployeeBasicInfo].[EmployeeSection_Name] AS [EmployeeSection_Name], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_EmpDeviceUserID] AS [EmployeeBasicInfo_EmpDeviceUserID], 
+      [Qry_EmployeeBasicInfo].[EmployeeBasicInfo_CardNo] AS [EmployeeBasicInfo_CardNo], 
+      [Qry_EmployeeBasicInfo].[EmployeeShift_ID] AS [EmployeeShift_ID], 
+      [Qry_EmployeeBasicInfo].[EmployeeShift_Name] AS [EmployeeShift_Name]
+      FROM [dbo].[Qry_EmployeeBasicInfo] AS [Qry_EmployeeBasicInfo]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+        <EntityType Name="Tbl_DateTime">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DateTimeVal" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tbl_Events">
+          <Key>
+            <PropertyRef Name="Events_ID" />
+          </Key>
+          <Property Name="Events_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Events_Title" Type="nvarchar" MaxLength="50" />
+          <Property Name="Events_Description" Type="nvarchar(max)" />
+          <Property Name="Events_Location" Type="nvarchar" MaxLength="50" />
+          <Property Name="Events_StartDate" Type="datetime" />
+          <Property Name="Events_EndDate" Type="datetime" />
+          <Property Name="Exents_ExpireDate" Type="datetime" />
+          <Property Name="Events_Status" Type="nchar" MaxLength="1" />
+          <Property Name="Events_AddBy" Type="int" />
+          <Property Name="Events_AddDate" Type="datetime" />
+          <Property Name="Events_UpdateBy" Type="int" />
+          <Property Name="Events_UpdateDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tbl_Gallery">
+          <Key>
+            <PropertyRef Name="Gallery_ID" />
+          </Key>
+          <Property Name="Gallery_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Gallery_Type" Type="nvarchar" MaxLength="50" />
+          <Property Name="Photo_Path" Type="nvarchar(max)" />
+          <Property Name="Video_Path" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Tbl_News">
+          <Key>
+            <PropertyRef Name="News_ID" />
+          </Key>
+          <Property Name="News_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="News_Title" Type="nvarchar" MaxLength="50" />
+          <Property Name="News_Description" Type="nvarchar(max)" />
+          <Property Name="News_ExpireDate" Type="datetime" />
+          <Property Name="News_Status" Type="nchar" MaxLength="1" />
+          <Property Name="News_AddBy" Type="int" />
+          <Property Name="News_AddDate" Type="datetime" />
+          <Property Name="News_UpdateBy" Type="int" />
+          <Property Name="News_UpdateDate" Type="datetime" />
+          <Property Name="News_PublishDate" Type="datetime" />
+          <Property Name="News_Picture" Type="image" />
+        </EntityType>
+        <EntityType Name="Tbl_Notice">
+          <Key>
+            <PropertyRef Name="Notice_ID" />
+          </Key>
+          <Property Name="Notice_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Notice_Title" Type="nvarchar" MaxLength="50" />
+          <Property Name="Notice_Description" Type="nvarchar(max)" />
+          <Property Name="Notice_ExpireDate" Type="datetime" />
+          <Property Name="Notice_Status" Type="nchar" MaxLength="1" />
+          <Property Name="Notice_IsScroll" Type="bit" />
+          <Property Name="Notice_AddBy" Type="int" />
+          <Property Name="Notice_AddDate" Type="datetime" />
+          <Property Name="Notice_UpdateBy" Type="int" />
+          <Property Name="Notice_UpdateDate" Type="datetime" />
+          <Property Name="Notice_PublishDate" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'trsc_db.dbo.Qry_EmployeeBasicInfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="Qry_EmployeeBasicInfo">
+          <Key>
+            <PropertyRef Name="EmployeeBasicInfo_DesignationID" />
+            <PropertyRef Name="EmployeeBasicInfo_IsClassTeacher" />
+            <PropertyRef Name="EmployeeBasicInfo_TypeID" />
+            <PropertyRef Name="EmployeeBasicInfo_BranchID" />
+            <PropertyRef Name="EmployeeBasicInfo_ShiftID" />
+            <PropertyRef Name="EmployeeBasicInfo_DepartmentID" />
+            <PropertyRef Name="EmployeeBasicInfo_SubjectID" />
+            <PropertyRef Name="EmployeeBasicInfo_JoiningDate" />
+            <PropertyRef Name="EmployeeBasicInfo_StatusID" />
+            <PropertyRef Name="EmployeeBasicInfo_DateOfBirth" />
+            <PropertyRef Name="EmployeeBasicInfo_IsGovtSalaryActive" />
+            <PropertyRef Name="EmployeeBasicInfo_GovtSalaryGrade" />
+            <PropertyRef Name="EmployeeDepartment_Name" />
+            <PropertyRef Name="ShiftSetup_Name" />
+            <PropertyRef Name="Branch_Name" />
+            <PropertyRef Name="EmployeeBasicInfo_ID" />
+            <PropertyRef Name="EmployeeBasicInfo_SectionID" />
+            <PropertyRef Name="EmployeeBasicInfo_DbOperationStatus" />
+            <PropertyRef Name="EmployeeSubject_Name" />
+            <PropertyRef Name="Version_Name" />
+          </Key>
+          <Property Name="EmployeeBasicInfo_EmployeeID" Type="nchar" MaxLength="10" />
+          <Property Name="EmployeeBasicInfo_Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmployeeBasicInfo_DesignationID" Type="int" Nullable="false" />
+          <Property Name="EmployeeBasicInfo_IsClassTeacher" Type="bit" Nullable="false" />
+          <Property Name="EmployeeBasicInfo_TypeID" Type="int" Nullable="false" />
+          <Property Name="EmployeeBasicInfo_BranchID" Type="int" Nullable="false" />
+          <Property Name="EmployeeBasicInfo_ShiftID" Type="int" Nullable="false" />
+          <Property Name="EmployeeBasicInfo_DepartmentID" Type="int" Nullable="false" />
+          <Property Name="EmployeeBasicInfo_SubjectID" Type="int" Nullable="false" />
+          <Property Name="EmployeeBasicInfo_JoiningDate" Type="datetime" Nullable="false" />
+          <Property Name="EmployeeBasicInfo_StatusID" Type="int" Nullable="false" />
+          <Property Name="EmployeeBasicInfo_Image" Type="image" />
+          <Property Name="EmployeeBasicInfo_FatherName" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmployeeBasicInfo_MotherName" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmployeeBasicInfo_Nationality" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmployeeBasicInfo_Religion" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeBasicInfo_BloodGroup" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeBasicInfo_DateOfBirth" Type="datetime" Nullable="false" />
+          <Property Name="EmployeeBasicInfo_NationalID" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmployeeBasicInfo_Contact" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmployeeBasicInfo_PresentAddress" Type="nvarchar" MaxLength="500" />
+          <Property Name="EmployeeBasicInfo_PresentPost" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmployeeBasicInfo_PresentThana" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmployeeBasicInfo_PresentDistrict" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmployeeBasicInfo_PermanentAddress" Type="nvarchar" MaxLength="500" />
+          <Property Name="EmployeeBasicInfo_PermanentPost" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmployeeBasicInfo_PermanentThana" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmployeeBasicInfo_PermanentDistrict" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmployeeBasicInfo_Status" Type="nvarchar" MaxLength="2" />
+          <Property Name="EmployeeBasicInfo_InstituteAccount" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeBasicInfo_GovtAccount" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeBasicInfo_IsGovtSalaryActive" Type="bit" Nullable="false" />
+          <Property Name="EmployeeBasicInfo_GovtSalaryGrade" Type="int" Nullable="false" />
+          <Property Name="Designation_Name" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeType_Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmployeeDepartment_Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="EmployeeStatus_Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="ShiftSetup_Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Branch_Name" Type="nvarchar" Nullable="false" MaxLength="150" />
+          <Property Name="EmployeeBasicInfo_ID" Type="int" Nullable="false" />
+          <Property Name="EmployeeBasicInfo_SectionID" Type="int" Nullable="false" />
+          <Property Name="EmployeeBasicInfo_DbOperationStatus" Type="varchar" Nullable="false" MaxLength="1" />
+          <Property Name="EmployeeBasicInfo_CategoryID" Type="int" />
+          <Property Name="EmployeeBasicInfo_VersionID" Type="int" />
+          <Property Name="EmployeeBasicInfo_Gender" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeBasicInfo_MaritalStatus" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeBasicInfo_EmergencyContactAddress" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmployeeBasicInfo_EmergencyTandTNo" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeBasicInfo_MobileNo" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeBasicInfo_Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeBasicInfo_SMSNotificationNo" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeSubject_Name" Type="nvarchar" Nullable="false" MaxLength="150" />
+          <Property Name="Version_Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="CategoryName" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmployeeSection_Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="EmployeeBasicInfo_EmpDeviceUserID" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeBasicInfo_CardNo" Type="nvarchar" MaxLength="50" />
+          <Property Name="EmployeeShift_ID" Type="int" />
+          <Property Name="EmployeeShift_Name" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="oemsbdv2_bmsc_dbModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="oemsbdv2_bmsc_dbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Tbl_DateTime" EntityType="oemsbdv2_bmsc_dbModel.Tbl_DateTime" />
+          <EntitySet Name="Tbl_Events" EntityType="oemsbdv2_bmsc_dbModel.Tbl_Events" />
+          <EntitySet Name="Tbl_Gallery" EntityType="oemsbdv2_bmsc_dbModel.Tbl_Gallery" />
+          <EntitySet Name="Tbl_News" EntityType="oemsbdv2_bmsc_dbModel.Tbl_News" />
+          <EntitySet Name="Tbl_Notice" EntityType="oemsbdv2_bmsc_dbModel.Tbl_Notice" />
+          <EntitySet Name="Qry_EmployeeBasicInfo" EntityType="oemsbdv2_bmsc_dbModel.Qry_EmployeeBasicInfo" />
+        </EntityContainer>
+        <EntityType Name="Tbl_DateTime">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="DateTime" Name="DateTimeVal" />
+        </EntityType>
+        <EntityType Name="Tbl_Events">
+          <Key>
+            <PropertyRef Name="Events_ID" />
+          </Key>
+          <Property Type="Int32" Name="Events_ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Events_Title" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Events_Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Events_Location" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="Events_StartDate" />
+          <Property Type="DateTime" Name="Events_EndDate" />
+          <Property Type="DateTime" Name="Exents_ExpireDate" />
+          <Property Type="String" Name="Events_Status" MaxLength="1" FixedLength="true" Unicode="true" />
+          <Property Type="Int32" Name="Events_AddBy" />
+          <Property Type="DateTime" Name="Events_AddDate" />
+          <Property Type="Int32" Name="Events_UpdateBy" />
+          <Property Type="DateTime" Name="Events_UpdateDate" />
+        </EntityType>
+        <EntityType Name="Tbl_Gallery">
+          <Key>
+            <PropertyRef Name="Gallery_ID" />
+          </Key>
+          <Property Type="Int32" Name="Gallery_ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Gallery_Type" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Photo_Path" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Video_Path" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Tbl_News">
+          <Key>
+            <PropertyRef Name="News_ID" />
+          </Key>
+          <Property Type="Int32" Name="News_ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="News_Title" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="News_Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="News_ExpireDate" />
+          <Property Type="String" Name="News_Status" MaxLength="1" FixedLength="true" Unicode="true" />
+          <Property Type="Int32" Name="News_AddBy" />
+          <Property Type="DateTime" Name="News_AddDate" />
+          <Property Type="Int32" Name="News_UpdateBy" />
+          <Property Type="DateTime" Name="News_UpdateDate" />
+          <Property Type="DateTime" Name="News_PublishDate" />
+          <Property Type="Binary" Name="News_Picture" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tbl_Notice">
+          <Key>
+            <PropertyRef Name="Notice_ID" />
+          </Key>
+          <Property Type="Int32" Name="Notice_ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Notice_Title" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Notice_Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="Notice_ExpireDate" />
+          <Property Type="String" Name="Notice_Status" MaxLength="1" FixedLength="true" Unicode="true" />
+          <Property Type="Boolean" Name="Notice_IsScroll" />
+          <Property Type="Int32" Name="Notice_AddBy" />
+          <Property Type="DateTime" Name="Notice_AddDate" />
+          <Property Type="Int32" Name="Notice_UpdateBy" />
+          <Property Type="DateTime" Name="Notice_UpdateDate" />
+          <Property Type="DateTime" Name="Notice_PublishDate" />
+        </EntityType>
+        <EntityType Name="Qry_EmployeeBasicInfo">
+          <Key>
+            <PropertyRef Name="EmployeeBasicInfo_DesignationID" />
+            <PropertyRef Name="EmployeeBasicInfo_IsClassTeacher" />
+            <PropertyRef Name="EmployeeBasicInfo_TypeID" />
+            <PropertyRef Name="EmployeeBasicInfo_BranchID" />
+            <PropertyRef Name="EmployeeBasicInfo_ShiftID" />
+            <PropertyRef Name="EmployeeBasicInfo_DepartmentID" />
+            <PropertyRef Name="EmployeeBasicInfo_SubjectID" />
+            <PropertyRef Name="EmployeeBasicInfo_JoiningDate" />
+            <PropertyRef Name="EmployeeBasicInfo_StatusID" />
+            <PropertyRef Name="EmployeeBasicInfo_DateOfBirth" />
+            <PropertyRef Name="EmployeeBasicInfo_IsGovtSalaryActive" />
+            <PropertyRef Name="EmployeeBasicInfo_GovtSalaryGrade" />
+            <PropertyRef Name="EmployeeDepartment_Name" />
+            <PropertyRef Name="ShiftSetup_Name" />
+            <PropertyRef Name="Branch_Name" />
+            <PropertyRef Name="EmployeeBasicInfo_ID" />
+            <PropertyRef Name="EmployeeBasicInfo_SectionID" />
+            <PropertyRef Name="EmployeeBasicInfo_DbOperationStatus" />
+            <PropertyRef Name="EmployeeSubject_Name" />
+            <PropertyRef Name="Version_Name" />
+          </Key>
+          <Property Type="String" Name="EmployeeBasicInfo_EmployeeID" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_Name" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="EmployeeBasicInfo_DesignationID" Nullable="false" />
+          <Property Type="Boolean" Name="EmployeeBasicInfo_IsClassTeacher" Nullable="false" />
+          <Property Type="Int32" Name="EmployeeBasicInfo_TypeID" Nullable="false" />
+          <Property Type="Int32" Name="EmployeeBasicInfo_BranchID" Nullable="false" />
+          <Property Type="Int32" Name="EmployeeBasicInfo_ShiftID" Nullable="false" />
+          <Property Type="Int32" Name="EmployeeBasicInfo_DepartmentID" Nullable="false" />
+          <Property Type="Int32" Name="EmployeeBasicInfo_SubjectID" Nullable="false" />
+          <Property Type="DateTime" Name="EmployeeBasicInfo_JoiningDate" Nullable="false" />
+          <Property Type="Int32" Name="EmployeeBasicInfo_StatusID" Nullable="false" />
+          <Property Type="Binary" Name="EmployeeBasicInfo_Image" MaxLength="Max" FixedLength="false" />
+          <Property Type="String" Name="EmployeeBasicInfo_FatherName" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_MotherName" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_Nationality" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_Religion" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_BloodGroup" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="EmployeeBasicInfo_DateOfBirth" Nullable="false" />
+          <Property Type="String" Name="EmployeeBasicInfo_NationalID" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_Contact" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_PresentAddress" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_PresentPost" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_PresentThana" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_PresentDistrict" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_PermanentAddress" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_PermanentPost" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_PermanentThana" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_PermanentDistrict" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_Status" MaxLength="2" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_InstituteAccount" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_GovtAccount" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="EmployeeBasicInfo_IsGovtSalaryActive" Nullable="false" />
+          <Property Type="Int32" Name="EmployeeBasicInfo_GovtSalaryGrade" Nullable="false" />
+          <Property Type="String" Name="Designation_Name" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeType_Name" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeDepartment_Name" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeStatus_Name" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ShiftSetup_Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Branch_Name" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="EmployeeBasicInfo_ID" Nullable="false" />
+          <Property Type="Int32" Name="EmployeeBasicInfo_SectionID" Nullable="false" />
+          <Property Type="String" Name="EmployeeBasicInfo_DbOperationStatus" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="EmployeeBasicInfo_CategoryID" />
+          <Property Type="Int32" Name="EmployeeBasicInfo_VersionID" />
+          <Property Type="String" Name="EmployeeBasicInfo_Gender" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_MaritalStatus" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_EmergencyContactAddress" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_EmergencyTandTNo" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_MobileNo" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_Email" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_SMSNotificationNo" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeSubject_Name" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Version_Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="CategoryName" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeSection_Name" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_EmpDeviceUserID" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="EmployeeBasicInfo_CardNo" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="EmployeeShift_ID" />
+          <Property Type="String" Name="EmployeeShift_Name" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="oemsbdv2_bmsc_dbModelStoreContainer" CdmEntityContainer="oemsbdv2_bmsc_dbEntities">
+          <EntitySetMapping Name="Tbl_DateTime">
+            <EntityTypeMapping TypeName="oemsbdv2_bmsc_dbModel.Tbl_DateTime">
+              <MappingFragment StoreEntitySet="Tbl_DateTime">
+                <ScalarProperty Name="DateTimeVal" ColumnName="DateTimeVal" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tbl_Events">
+            <EntityTypeMapping TypeName="oemsbdv2_bmsc_dbModel.Tbl_Events">
+              <MappingFragment StoreEntitySet="Tbl_Events">
+                <ScalarProperty Name="Events_UpdateDate" ColumnName="Events_UpdateDate" />
+                <ScalarProperty Name="Events_UpdateBy" ColumnName="Events_UpdateBy" />
+                <ScalarProperty Name="Events_AddDate" ColumnName="Events_AddDate" />
+                <ScalarProperty Name="Events_AddBy" ColumnName="Events_AddBy" />
+                <ScalarProperty Name="Events_Status" ColumnName="Events_Status" />
+                <ScalarProperty Name="Exents_ExpireDate" ColumnName="Exents_ExpireDate" />
+                <ScalarProperty Name="Events_EndDate" ColumnName="Events_EndDate" />
+                <ScalarProperty Name="Events_StartDate" ColumnName="Events_StartDate" />
+                <ScalarProperty Name="Events_Location" ColumnName="Events_Location" />
+                <ScalarProperty Name="Events_Description" ColumnName="Events_Description" />
+                <ScalarProperty Name="Events_Title" ColumnName="Events_Title" />
+                <ScalarProperty Name="Events_ID" ColumnName="Events_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tbl_Gallery">
+            <EntityTypeMapping TypeName="oemsbdv2_bmsc_dbModel.Tbl_Gallery">
+              <MappingFragment StoreEntitySet="Tbl_Gallery">
+                <ScalarProperty Name="Video_Path" ColumnName="Video_Path" />
+                <ScalarProperty Name="Photo_Path" ColumnName="Photo_Path" />
+                <ScalarProperty Name="Gallery_Type" ColumnName="Gallery_Type" />
+                <ScalarProperty Name="Gallery_ID" ColumnName="Gallery_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tbl_News">
+            <EntityTypeMapping TypeName="oemsbdv2_bmsc_dbModel.Tbl_News">
+              <MappingFragment StoreEntitySet="Tbl_News">
+                <ScalarProperty Name="News_Picture" ColumnName="News_Picture" />
+                <ScalarProperty Name="News_PublishDate" ColumnName="News_PublishDate" />
+                <ScalarProperty Name="News_UpdateDate" ColumnName="News_UpdateDate" />
+                <ScalarProperty Name="News_UpdateBy" ColumnName="News_UpdateBy" />
+                <ScalarProperty Name="News_AddDate" ColumnName="News_AddDate" />
+                <ScalarProperty Name="News_AddBy" ColumnName="News_AddBy" />
+                <ScalarProperty Name="News_Status" ColumnName="News_Status" />
+                <ScalarProperty Name="News_ExpireDate" ColumnName="News_ExpireDate" />
+                <ScalarProperty Name="News_Description" ColumnName="News_Description" />
+                <ScalarProperty Name="News_Title" ColumnName="News_Title" />
+                <ScalarProperty Name="News_ID" ColumnName="News_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tbl_Notice">
+            <EntityTypeMapping TypeName="oemsbdv2_bmsc_dbModel.Tbl_Notice">
+              <MappingFragment StoreEntitySet="Tbl_Notice">
+                <ScalarProperty Name="Notice_PublishDate" ColumnName="Notice_PublishDate" />
+                <ScalarProperty Name="Notice_UpdateDate" ColumnName="Notice_UpdateDate" />
+                <ScalarProperty Name="Notice_UpdateBy" ColumnName="Notice_UpdateBy" />
+                <ScalarProperty Name="Notice_AddDate" ColumnName="Notice_AddDate" />
+                <ScalarProperty Name="Notice_AddBy" ColumnName="Notice_AddBy" />
+                <ScalarProperty Name="Notice_IsScroll" ColumnName="Notice_IsScroll" />
+                <ScalarProperty Name="Notice_Status" ColumnName="Notice_Status" />
+                <ScalarProperty Name="Notice_ExpireDate" ColumnName="Notice_ExpireDate" />
+                <ScalarProperty Name="Notice_Description" ColumnName="Notice_Description" />
+                <ScalarProperty Name="Notice_Title" ColumnName="Notice_Title" />
+                <ScalarProperty Name="Notice_ID" ColumnName="Notice_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Qry_EmployeeBasicInfo">
+            <EntityTypeMapping TypeName="oemsbdv2_bmsc_dbModel.Qry_EmployeeBasicInfo">
+              <MappingFragment StoreEntitySet="Qry_EmployeeBasicInfo">
+                <ScalarProperty Name="EmployeeShift_Name" ColumnName="EmployeeShift_Name" />
+                <ScalarProperty Name="EmployeeShift_ID" ColumnName="EmployeeShift_ID" />
+                <ScalarProperty Name="EmployeeBasicInfo_CardNo" ColumnName="EmployeeBasicInfo_CardNo" />
+                <ScalarProperty Name="EmployeeBasicInfo_EmpDeviceUserID" ColumnName="EmployeeBasicInfo_EmpDeviceUserID" />
+                <ScalarProperty Name="EmployeeSection_Name" ColumnName="EmployeeSection_Name" />
+                <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+                <ScalarProperty Name="Version_Name" ColumnName="Version_Name" />
+                <ScalarProperty Name="EmployeeSubject_Name" ColumnName="EmployeeSubject_Name" />
+                <ScalarProperty Name="EmployeeBasicInfo_SMSNotificationNo" ColumnName="EmployeeBasicInfo_SMSNotificationNo" />
+                <ScalarProperty Name="EmployeeBasicInfo_Email" ColumnName="EmployeeBasicInfo_Email" />
+                <ScalarProperty Name="EmployeeBasicInfo_MobileNo" ColumnName="EmployeeBasicInfo_MobileNo" />
+                <ScalarProperty Name="EmployeeBasicInfo_EmergencyTandTNo" ColumnName="EmployeeBasicInfo_EmergencyTandTNo" />
+                <ScalarProperty Name="EmployeeBasicInfo_EmergencyContactAddress" ColumnName="EmployeeBasicInfo_EmergencyContactAddress" />
+                <ScalarProperty Name="EmployeeBasicInfo_MaritalStatus" ColumnName="EmployeeBasicInfo_MaritalStatus" />
+                <ScalarProperty Name="EmployeeBasicInfo_Gender" ColumnName="EmployeeBasicInfo_Gender" />
+                <ScalarProperty Name="EmployeeBasicInfo_VersionID" ColumnName="EmployeeBasicInfo_VersionID" />
+                <ScalarProperty Name="EmployeeBasicInfo_CategoryID" ColumnName="EmployeeBasicInfo_CategoryID" />
+                <ScalarProperty Name="EmployeeBasicInfo_DbOperationStatus" ColumnName="EmployeeBasicInfo_DbOperationStatus" />
+                <ScalarProperty Name="EmployeeBasicInfo_SectionID" ColumnName="EmployeeBasicInfo_SectionID" />
+                <ScalarProperty Name="EmployeeBasicInfo_ID" ColumnName="EmployeeBasicInfo_ID" />
+                <ScalarProperty Name="Branch_Name" ColumnName="Branch_Name" />
+                <ScalarProperty Name="ShiftSetup_Name" ColumnName="ShiftSetup_Name" />
+                <ScalarProperty Name="EmployeeStatus_Name" ColumnName="EmployeeStatus_Name" />
+                <ScalarProperty Name="EmployeeDepartment_Name" ColumnName="EmployeeDepartment_Name" />
+                <ScalarProperty Name="EmployeeType_Name" ColumnName="EmployeeType_Name" />
+                <ScalarProperty Name="Designation_Name" ColumnName="Designation_Name" />
+                <ScalarProperty Name="EmployeeBasicInfo_GovtSalaryGrade" ColumnName="EmployeeBasicInfo_GovtSalaryGrade" />
+                <ScalarProperty Name="EmployeeBasicInfo_IsGovtSalaryActive" ColumnName="EmployeeBasicInfo_IsGovtSalaryActive" />
+                <ScalarProperty Name="EmployeeBasicInfo_GovtAccount" ColumnName="EmployeeBasicInfo_GovtAccount" />
+                <ScalarProperty Name="EmployeeBasicInfo_InstituteAccount" ColumnName="EmployeeBasicInfo_InstituteAccount" />
+                <ScalarProperty Name="EmployeeBasicInfo_Status" ColumnName="EmployeeBasicInfo_Status" />
+                <ScalarProperty Name="EmployeeBasicInfo_PermanentDistrict" ColumnName="EmployeeBasicInfo_PermanentDistrict" />
+                <ScalarProperty Name="EmployeeBasicInfo_PermanentThana" ColumnName="EmployeeBasicInfo_PermanentThana" />
+                <ScalarProperty Name="EmployeeBasicInfo_PermanentPost" ColumnName="EmployeeBasicInfo_PermanentPost" />
+                <ScalarProperty Name="EmployeeBasicInfo_PermanentAddress" ColumnName="EmployeeBasicInfo_PermanentAddress" />
+                <ScalarProperty Name="EmployeeBasicInfo_PresentDistrict" ColumnName="EmployeeBasicInfo_PresentDistrict" />
+                <ScalarProperty Name="EmployeeBasicInfo_PresentThana" ColumnName="EmployeeBasicInfo_PresentThana" />
+                <ScalarProperty Name="EmployeeBasicInfo_PresentPost" ColumnName="EmployeeBasicInfo_PresentPost" />
+                <ScalarProperty Name="EmployeeBasicInfo_PresentAddress" ColumnName="EmployeeBasicInfo_PresentAddress" />
+                <ScalarProperty Name="EmployeeBasicInfo_Contact" ColumnName="EmployeeBasicInfo_Contact" />
+                <ScalarProperty Name="EmployeeBasicInfo_NationalID" ColumnName="EmployeeBasicInfo_NationalID" />
+                <ScalarProperty Name="EmployeeBasicInfo_DateOfBirth" ColumnName="EmployeeBasicInfo_DateOfBirth" />
+                <ScalarProperty Name="EmployeeBasicInfo_BloodGroup" ColumnName="EmployeeBasicInfo_BloodGroup" />
+                <ScalarProperty Name="EmployeeBasicInfo_Religion" ColumnName="EmployeeBasicInfo_Religion" />
+                <ScalarProperty Name="EmployeeBasicInfo_Nationality" ColumnName="EmployeeBasicInfo_Nationality" />
+                <ScalarProperty Name="EmployeeBasicInfo_MotherName" ColumnName="EmployeeBasicInfo_MotherName" />
+                <ScalarProperty Name="EmployeeBasicInfo_FatherName" ColumnName="EmployeeBasicInfo_FatherName" />
+                <ScalarProperty Name="EmployeeBasicInfo_Image" ColumnName="EmployeeBasicInfo_Image" />
+                <ScalarProperty Name="EmployeeBasicInfo_StatusID" ColumnName="EmployeeBasicInfo_StatusID" />
+                <ScalarProperty Name="EmployeeBasicInfo_JoiningDate" ColumnName="EmployeeBasicInfo_JoiningDate" />
+                <ScalarProperty Name="EmployeeBasicInfo_SubjectID" ColumnName="EmployeeBasicInfo_SubjectID" />
+                <ScalarProperty Name="EmployeeBasicInfo_DepartmentID" ColumnName="EmployeeBasicInfo_DepartmentID" />
+                <ScalarProperty Name="EmployeeBasicInfo_ShiftID" ColumnName="EmployeeBasicInfo_ShiftID" />
+                <ScalarProperty Name="EmployeeBasicInfo_BranchID" ColumnName="EmployeeBasicInfo_BranchID" />
+                <ScalarProperty Name="EmployeeBasicInfo_TypeID" ColumnName="EmployeeBasicInfo_TypeID" />
+                <ScalarProperty Name="EmployeeBasicInfo_IsClassTeacher" ColumnName="EmployeeBasicInfo_IsClassTeacher" />
+                <ScalarProperty Name="EmployeeBasicInfo_DesignationID" ColumnName="EmployeeBasicInfo_DesignationID" />
+                <ScalarProperty Name="EmployeeBasicInfo_Name" ColumnName="EmployeeBasicInfo_Name" />
+                <ScalarProperty Name="EmployeeBasicInfo_EmployeeID" ColumnName="EmployeeBasicInfo_EmployeeID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="OEMSV2_Model">
+        <EntityTypeShape EntityType="oemsbdv2_bmsc_dbModel.Tbl_DateTime" Width="1.5" PointX="0.75" PointY="0.75" Height="1.4033821614583317" />
+        <EntityTypeShape EntityType="oemsbdv2_bmsc_dbModel.Tbl_Events" Width="1.5" PointX="2.75" PointY="0.75" Height="3.3263964843749996" />
+        <EntityTypeShape EntityType="oemsbdv2_bmsc_dbModel.Tbl_Gallery" Width="1.5" PointX="4.75" PointY="0.75" Height="1.7879850260416674" />
+        <EntityTypeShape EntityType="oemsbdv2_bmsc_dbModel.Tbl_News" Width="1.5" PointX="4.75" PointY="3.75" Height="3.1340950520833353" />
+        <EntityTypeShape EntityType="oemsbdv2_bmsc_dbModel.Tbl_Notice" Width="1.5" PointX="0.75" PointY="5.75" Height="3.1340950520833317" />
+        <EntityTypeShape EntityType="oemsbdv2_bmsc_dbModel.Qry_EmployeeBasicInfo" Width="1.5" PointX="7.375" PointY="0.75" Height="12.364563802083332" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

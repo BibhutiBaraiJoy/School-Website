@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="oemsbdv2_bmsc_dbModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="oemsbdv2_bmsc_dbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Tbl_DateTime" EntityType="oemsbdv2_bmsc_dbModel.Tbl_DateTime" />
+    <EntitySet Name="Tbl_Events" EntityType="oemsbdv2_bmsc_dbModel.Tbl_Events" />
+    <EntitySet Name="Tbl_Gallery" EntityType="oemsbdv2_bmsc_dbModel.Tbl_Gallery" />
+    <EntitySet Name="Tbl_News" EntityType="oemsbdv2_bmsc_dbModel.Tbl_News" />
+    <EntitySet Name="Tbl_Notice" EntityType="oemsbdv2_bmsc_dbModel.Tbl_Notice" />
+    <EntitySet Name="Qry_EmployeeBasicInfo" EntityType="oemsbdv2_bmsc_dbModel.Qry_EmployeeBasicInfo" />
+  </EntityContainer>
+  <EntityType Name="Tbl_DateTime">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="DateTime" Name="DateTimeVal" />
+  </EntityType>
+  <EntityType Name="Tbl_Events">
+    <Key>
+      <PropertyRef Name="Events_ID" />
+    </Key>
+    <Property Type="Int32" Name="Events_ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Events_Title" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Events_Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Events_Location" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="Events_StartDate" />
+    <Property Type="DateTime" Name="Events_EndDate" />
+    <Property Type="DateTime" Name="Exents_ExpireDate" />
+    <Property Type="String" Name="Events_Status" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Type="Int32" Name="Events_AddBy" />
+    <Property Type="DateTime" Name="Events_AddDate" />
+    <Property Type="Int32" Name="Events_UpdateBy" />
+    <Property Type="DateTime" Name="Events_UpdateDate" />
+  </EntityType>
+  <EntityType Name="Tbl_Gallery">
+    <Key>
+      <PropertyRef Name="Gallery_ID" />
+    </Key>
+    <Property Type="Int32" Name="Gallery_ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Gallery_Type" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Photo_Path" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Video_Path" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Tbl_News">
+    <Key>
+      <PropertyRef Name="News_ID" />
+    </Key>
+    <Property Type="Int32" Name="News_ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="News_Title" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="News_Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="News_ExpireDate" />
+    <Property Type="String" Name="News_Status" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Type="Int32" Name="News_AddBy" />
+    <Property Type="DateTime" Name="News_AddDate" />
+    <Property Type="Int32" Name="News_UpdateBy" />
+    <Property Type="DateTime" Name="News_UpdateDate" />
+    <Property Type="DateTime" Name="News_PublishDate" />
+    <Property Type="Binary" Name="News_Picture" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Tbl_Notice">
+    <Key>
+      <PropertyRef Name="Notice_ID" />
+    </Key>
+    <Property Type="Int32" Name="Notice_ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Notice_Title" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Notice_Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="Notice_ExpireDate" />
+    <Property Type="String" Name="Notice_Status" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Type="Boolean" Name="Notice_IsScroll" />
+    <Property Type="Int32" Name="Notice_AddBy" />
+    <Property Type="DateTime" Name="Notice_AddDate" />
+    <Property Type="Int32" Name="Notice_UpdateBy" />
+    <Property Type="DateTime" Name="Notice_UpdateDate" />
+    <Property Type="DateTime" Name="Notice_PublishDate" />
+  </EntityType>
+  <EntityType Name="Qry_EmployeeBasicInfo">
+    <Key>
+      <PropertyRef Name="EmployeeBasicInfo_DesignationID" />
+      <PropertyRef Name="EmployeeBasicInfo_IsClassTeacher" />
+      <PropertyRef Name="EmployeeBasicInfo_TypeID" />
+      <PropertyRef Name="EmployeeBasicInfo_BranchID" />
+      <PropertyRef Name="EmployeeBasicInfo_ShiftID" />
+      <PropertyRef Name="EmployeeBasicInfo_DepartmentID" />
+      <PropertyRef Name="EmployeeBasicInfo_SubjectID" />
+      <PropertyRef Name="EmployeeBasicInfo_JoiningDate" />
+      <PropertyRef Name="EmployeeBasicInfo_StatusID" />
+      <PropertyRef Name="EmployeeBasicInfo_DateOfBirth" />
+      <PropertyRef Name="EmployeeBasicInfo_IsGovtSalaryActive" />
+      <PropertyRef Name="EmployeeBasicInfo_GovtSalaryGrade" />
+      <PropertyRef Name="EmployeeDepartment_Name" />
+      <PropertyRef Name="ShiftSetup_Name" />
+      <PropertyRef Name="Branch_Name" />
+      <PropertyRef Name="EmployeeBasicInfo_ID" />
+      <PropertyRef Name="EmployeeBasicInfo_SectionID" />
+      <PropertyRef Name="EmployeeBasicInfo_DbOperationStatus" />
+      <PropertyRef Name="EmployeeSubject_Name" />
+      <PropertyRef Name="Version_Name" />
+    </Key>
+    <Property Type="String" Name="EmployeeBasicInfo_EmployeeID" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_Name" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="EmployeeBasicInfo_DesignationID" Nullable="false" />
+    <Property Type="Boolean" Name="EmployeeBasicInfo_IsClassTeacher" Nullable="false" />
+    <Property Type="Int32" Name="EmployeeBasicInfo_TypeID" Nullable="false" />
+    <Property Type="Int32" Name="EmployeeBasicInfo_BranchID" Nullable="false" />
+    <Property Type="Int32" Name="EmployeeBasicInfo_ShiftID" Nullable="false" />
+    <Property Type="Int32" Name="EmployeeBasicInfo_DepartmentID" Nullable="false" />
+    <Property Type="Int32" Name="EmployeeBasicInfo_SubjectID" Nullable="false" />
+    <Property Type="DateTime" Name="EmployeeBasicInfo_JoiningDate" Nullable="false" />
+    <Property Type="Int32" Name="EmployeeBasicInfo_StatusID" Nullable="false" />
+    <Property Type="Binary" Name="EmployeeBasicInfo_Image" MaxLength="Max" FixedLength="false" />
+    <Property Type="String" Name="EmployeeBasicInfo_FatherName" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_MotherName" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_Nationality" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_Religion" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_BloodGroup" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="EmployeeBasicInfo_DateOfBirth" Nullable="false" />
+    <Property Type="String" Name="EmployeeBasicInfo_NationalID" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_Contact" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_PresentAddress" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_PresentPost" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_PresentThana" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_PresentDistrict" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_PermanentAddress" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_PermanentPost" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_PermanentThana" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_PermanentDistrict" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_Status" MaxLength="2" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_InstituteAccount" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_GovtAccount" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="EmployeeBasicInfo_IsGovtSalaryActive" Nullable="false" />
+    <Property Type="Int32" Name="EmployeeBasicInfo_GovtSalaryGrade" Nullable="false" />
+    <Property Type="String" Name="Designation_Name" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeType_Name" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeDepartment_Name" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeStatus_Name" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ShiftSetup_Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Branch_Name" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="EmployeeBasicInfo_ID" Nullable="false" />
+    <Property Type="Int32" Name="EmployeeBasicInfo_SectionID" Nullable="false" />
+    <Property Type="String" Name="EmployeeBasicInfo_DbOperationStatus" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="EmployeeBasicInfo_CategoryID" />
+    <Property Type="Int32" Name="EmployeeBasicInfo_VersionID" />
+    <Property Type="String" Name="EmployeeBasicInfo_Gender" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_MaritalStatus" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_EmergencyContactAddress" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_EmergencyTandTNo" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_MobileNo" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_Email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_SMSNotificationNo" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeSubject_Name" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Version_Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CategoryName" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeSection_Name" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_EmpDeviceUserID" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="EmployeeBasicInfo_CardNo" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="EmployeeShift_ID" />
+    <Property Type="String" Name="EmployeeShift_Name" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

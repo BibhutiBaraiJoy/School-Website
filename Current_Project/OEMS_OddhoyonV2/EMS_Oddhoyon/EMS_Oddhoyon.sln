@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{F4DEFBEA-C7A8-4F11-9F00-C01271CB60A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{88BA3A31-A3BB-4F5E-909D-EBC4335A763B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{41E2B009-3F05-4B0E-8A93-2AC1CAB03D7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{D9FFAE35-54ED-4D62-AF78-9C51AF207621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS_Oddhoyon_Business", "EMS_Oddhoyon_Business\EMS_Oddhoyon_Business.csproj", "{9F6E222A-F3A4-4A94-B38B-7FE38F665F06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS_Oddhoyon_Logic", "EMS_Oddhoyon_Logic\EMS_Oddhoyon_Logic.csproj", "{1C536428-8524-4936-84D4-81ECF68A7A23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS_Oddhoyon_Data", "EMS_Oddhoyon_Data\EMS_Oddhoyon_Data.csproj", "{A21F42B0-9492-468E-8167-32A01B4D9C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS_Oddhoyon_Service", "EMS_Oddhoyon_Service\EMS_Oddhoyon_Service.csproj", "{BF899DDC-403F-4AB1-A405-2C909ABC737A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApplication", "WebApplication", "{CEE781D2-5059-44C7-B2EF-93A068FEE02F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS_Oddhoyon_Web", "EMS_Oddhoyon_Web\EMS_Oddhoyon_Web.csproj", "{DE343A86-E896-4311-9352-EE2E9083786A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F6E222A-F3A4-4A94-B38B-7FE38F665F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6E222A-F3A4-4A94-B38B-7FE38F665F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6E222A-F3A4-4A94-B38B-7FE38F665F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6E222A-F3A4-4A94-B38B-7FE38F665F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C536428-8524-4936-84D4-81ECF68A7A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C536428-8524-4936-84D4-81ECF68A7A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C536428-8524-4936-84D4-81ECF68A7A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C536428-8524-4936-84D4-81ECF68A7A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21F42B0-9492-468E-8167-32A01B4D9C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21F42B0-9492-468E-8167-32A01B4D9C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21F42B0-9492-468E-8167-32A01B4D9C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21F42B0-9492-468E-8167-32A01B4D9C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF899DDC-403F-4AB1-A405-2C909ABC737A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF899DDC-403F-4AB1-A405-2C909ABC737A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF899DDC-403F-4AB1-A405-2C909ABC737A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF899DDC-403F-4AB1-A405-2C909ABC737A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE343A86-E896-4311-9352-EE2E9083786A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE343A86-E896-4311-9352-EE2E9083786A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE343A86-E896-4311-9352-EE2E9083786A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE343A86-E896-4311-9352-EE2E9083786A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F6E222A-F3A4-4A94-B38B-7FE38F665F06} = {F4DEFBEA-C7A8-4F11-9F00-C01271CB60A9}
+		{1C536428-8524-4936-84D4-81ECF68A7A23} = {F4DEFBEA-C7A8-4F11-9F00-C01271CB60A9}
+		{A21F42B0-9492-468E-8167-32A01B4D9C18} = {88BA3A31-A3BB-4F5E-909D-EBC4335A763B}
+		{CEE781D2-5059-44C7-B2EF-93A068FEE02F} = {41E2B009-3F05-4B0E-8A93-2AC1CAB03D7E}
+		{BF899DDC-403F-4AB1-A405-2C909ABC737A} = {D9FFAE35-54ED-4D62-AF78-9C51AF207621}
+		{DE343A86-E896-4311-9352-EE2E9083786A} = {CEE781D2-5059-44C7-B2EF-93A068FEE02F}
+	EndGlobalSection
+EndGlobal

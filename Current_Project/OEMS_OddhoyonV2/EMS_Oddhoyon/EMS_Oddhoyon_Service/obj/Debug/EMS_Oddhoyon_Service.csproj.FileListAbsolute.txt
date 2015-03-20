@@ -1,0 +1,53 @@
+c:\users\rafiq\documents\visual studio 2010\Projects\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Service.dll
+c:\users\rafiq\documents\visual studio 2010\Projects\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Service.pdb
+c:\users\rafiq\documents\visual studio 2010\Projects\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\EMS_Oddhoyon_Service.dll
+c:\users\rafiq\documents\visual studio 2010\Projects\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\EMS_Oddhoyon_Service.pdb
+c:\users\rafiq\documents\visual studio 2010\Projects\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Business.dll
+c:\users\rafiq\documents\visual studio 2010\Projects\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Data.dll
+c:\users\rafiq\documents\visual studio 2010\Projects\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Business.pdb
+c:\users\rafiq\documents\visual studio 2010\Projects\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Data.pdb
+c:\users\rafiq\documents\visual studio 2010\Projects\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\EMS_Oddhoyon_Service.csprojResolveAssemblyReference.cache
+D:\Current Project\OEMS_Oddhoyon V2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Service.dll
+D:\Current Project\OEMS_Oddhoyon V2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Service.pdb
+D:\Current Project\OEMS_Oddhoyon V2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Business.dll
+D:\Current Project\OEMS_Oddhoyon V2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Business.pdb
+D:\Current Project\OEMS_Oddhoyon V2\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\ResolveAssemblyReference.cache
+D:\Current Project\OEMS_Oddhoyon V2\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\EMS_Oddhoyon_Service.dll
+D:\Current Project\OEMS_Oddhoyon V2\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\EMS_Oddhoyon_Service.pdb
+D:\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\ResolveAssemblyReference.cache
+D:\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Service.dll
+D:\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Service.pdb
+D:\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Business.dll
+D:\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Data.dll
+D:\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Business.pdb
+D:\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Data.pdb
+D:\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\EMS_Oddhoyon_Service.dll
+D:\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\EMS_Oddhoyon_Service.pdb
+C:\Users\ANIS\Desktop\Current_Project\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Service.dll
+C:\Users\ANIS\Desktop\Current_Project\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Service.pdb
+C:\Users\ANIS\Desktop\Current_Project\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Business.dll
+C:\Users\ANIS\Desktop\Current_Project\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Data.dll
+C:\Users\ANIS\Desktop\Current_Project\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Business.pdb
+C:\Users\ANIS\Desktop\Current_Project\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Data.pdb
+C:\Users\ANIS\Desktop\Current_Project\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\EMS_Oddhoyon_Service.csprojResolveAssemblyReference.cache
+C:\Users\ANIS\Desktop\Current_Project\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\EMS_Oddhoyon_Service.dll
+C:\Users\ANIS\Desktop\Current_Project\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\EMS_Oddhoyon_Service.pdb
+C:\Users\ANIS\Downloads\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Service.dll
+C:\Users\ANIS\Downloads\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Service.pdb
+C:\Users\ANIS\Downloads\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Business.dll
+C:\Users\ANIS\Downloads\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Data.dll
+C:\Users\ANIS\Downloads\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Business.pdb
+C:\Users\ANIS\Downloads\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Data.pdb
+C:\Users\ANIS\Downloads\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ANIS\Downloads\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\EMS_Oddhoyon_Service.dll
+C:\Users\ANIS\Downloads\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\EMS_Oddhoyon_Service.pdb
+D:\Bibhuti\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Service.dll
+D:\Bibhuti\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Service.pdb
+D:\Bibhuti\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Business.dll
+D:\Bibhuti\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Business.pdb
+D:\Bibhuti\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Data.pdb
+D:\Bibhuti\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\ResolveAssemblyReference.cache
+D:\Bibhuti\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\EMS_Oddhoyon_Service.dll
+D:\Bibhuti\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\EMS_Oddhoyon_Service.pdb
+D:\Bibhuti\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\bin\Debug\EMS_Oddhoyon_Data.dll
+C:\Users\Bibhuti\Desktop\Current_Project\OEMS_OddhoyonV2\EMS_Oddhoyon\EMS_Oddhoyon_Service\obj\Debug\EMS_Oddhoyon_Service.csprojResolveAssemblyReference.cache

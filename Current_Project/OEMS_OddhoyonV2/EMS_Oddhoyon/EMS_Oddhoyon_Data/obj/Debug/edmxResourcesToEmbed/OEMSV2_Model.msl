@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="oemsbdv2_bmsc_dbModelStoreContainer" CdmEntityContainer="oemsbdv2_bmsc_dbEntities">
+    <EntitySetMapping Name="Tbl_DateTime">
+      <EntityTypeMapping TypeName="oemsbdv2_bmsc_dbModel.Tbl_DateTime">
+        <MappingFragment StoreEntitySet="Tbl_DateTime">
+          <ScalarProperty Name="DateTimeVal" ColumnName="DateTimeVal" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Events">
+      <EntityTypeMapping TypeName="oemsbdv2_bmsc_dbModel.Tbl_Events">
+        <MappingFragment StoreEntitySet="Tbl_Events">
+          <ScalarProperty Name="Events_UpdateDate" ColumnName="Events_UpdateDate" />
+          <ScalarProperty Name="Events_UpdateBy" ColumnName="Events_UpdateBy" />
+          <ScalarProperty Name="Events_AddDate" ColumnName="Events_AddDate" />
+          <ScalarProperty Name="Events_AddBy" ColumnName="Events_AddBy" />
+          <ScalarProperty Name="Events_Status" ColumnName="Events_Status" />
+          <ScalarProperty Name="Exents_ExpireDate" ColumnName="Exents_ExpireDate" />
+          <ScalarProperty Name="Events_EndDate" ColumnName="Events_EndDate" />
+          <ScalarProperty Name="Events_StartDate" ColumnName="Events_StartDate" />
+          <ScalarProperty Name="Events_Location" ColumnName="Events_Location" />
+          <ScalarProperty Name="Events_Description" ColumnName="Events_Description" />
+          <ScalarProperty Name="Events_Title" ColumnName="Events_Title" />
+          <ScalarProperty Name="Events_ID" ColumnName="Events_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Gallery">
+      <EntityTypeMapping TypeName="oemsbdv2_bmsc_dbModel.Tbl_Gallery">
+        <MappingFragment StoreEntitySet="Tbl_Gallery">
+          <ScalarProperty Name="Video_Path" ColumnName="Video_Path" />
+          <ScalarProperty Name="Photo_Path" ColumnName="Photo_Path" />
+          <ScalarProperty Name="Gallery_Type" ColumnName="Gallery_Type" />
+          <ScalarProperty Name="Gallery_ID" ColumnName="Gallery_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_News">
+      <EntityTypeMapping TypeName="oemsbdv2_bmsc_dbModel.Tbl_News">
+        <MappingFragment StoreEntitySet="Tbl_News">
+          <ScalarProperty Name="News_Picture" ColumnName="News_Picture" />
+          <ScalarProperty Name="News_PublishDate" ColumnName="News_PublishDate" />
+          <ScalarProperty Name="News_UpdateDate" ColumnName="News_UpdateDate" />
+          <ScalarProperty Name="News_UpdateBy" ColumnName="News_UpdateBy" />
+          <ScalarProperty Name="News_AddDate" ColumnName="News_AddDate" />
+          <ScalarProperty Name="News_AddBy" ColumnName="News_AddBy" />
+          <ScalarProperty Name="News_Status" ColumnName="News_Status" />
+          <ScalarProperty Name="News_ExpireDate" ColumnName="News_ExpireDate" />
+          <ScalarProperty Name="News_Description" ColumnName="News_Description" />
+          <ScalarProperty Name="News_Title" ColumnName="News_Title" />
+          <ScalarProperty Name="News_ID" ColumnName="News_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Notice">
+      <EntityTypeMapping TypeName="oemsbdv2_bmsc_dbModel.Tbl_Notice">
+        <MappingFragment StoreEntitySet="Tbl_Notice">
+          <ScalarProperty Name="Notice_PublishDate" ColumnName="Notice_PublishDate" />
+          <ScalarProperty Name="Notice_UpdateDate" ColumnName="Notice_UpdateDate" />
+          <ScalarProperty Name="Notice_UpdateBy" ColumnName="Notice_UpdateBy" />
+          <ScalarProperty Name="Notice_AddDate" ColumnName="Notice_AddDate" />
+          <ScalarProperty Name="Notice_AddBy" ColumnName="Notice_AddBy" />
+          <ScalarProperty Name="Notice_IsScroll" ColumnName="Notice_IsScroll" />
+          <ScalarProperty Name="Notice_Status" ColumnName="Notice_Status" />
+          <ScalarProperty Name="Notice_ExpireDate" ColumnName="Notice_ExpireDate" />
+          <ScalarProperty Name="Notice_Description" ColumnName="Notice_Description" />
+          <ScalarProperty Name="Notice_Title" ColumnName="Notice_Title" />
+          <ScalarProperty Name="Notice_ID" ColumnName="Notice_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Qry_EmployeeBasicInfo">
+      <EntityTypeMapping TypeName="oemsbdv2_bmsc_dbModel.Qry_EmployeeBasicInfo">
+        <MappingFragment StoreEntitySet="Qry_EmployeeBasicInfo">
+          <ScalarProperty Name="EmployeeShift_Name" ColumnName="EmployeeShift_Name" />
+          <ScalarProperty Name="EmployeeShift_ID" ColumnName="EmployeeShift_ID" />
+          <ScalarProperty Name="EmployeeBasicInfo_CardNo" ColumnName="EmployeeBasicInfo_CardNo" />
+          <ScalarProperty Name="EmployeeBasicInfo_EmpDeviceUserID" ColumnName="EmployeeBasicInfo_EmpDeviceUserID" />
+          <ScalarProperty Name="EmployeeSection_Name" ColumnName="EmployeeSection_Name" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="Version_Name" ColumnName="Version_Name" />
+          <ScalarProperty Name="EmployeeSubject_Name" ColumnName="EmployeeSubject_Name" />
+          <ScalarProperty Name="EmployeeBasicInfo_SMSNotificationNo" ColumnName="EmployeeBasicInfo_SMSNotificationNo" />
+          <ScalarProperty Name="EmployeeBasicInfo_Email" ColumnName="EmployeeBasicInfo_Email" />
+          <ScalarProperty Name="EmployeeBasicInfo_MobileNo" ColumnName="EmployeeBasicInfo_MobileNo" />
+          <ScalarProperty Name="EmployeeBasicInfo_EmergencyTandTNo" ColumnName="EmployeeBasicInfo_EmergencyTandTNo" />
+          <ScalarProperty Name="EmployeeBasicInfo_EmergencyContactAddress" ColumnName="EmployeeBasicInfo_EmergencyContactAddress" />
+          <ScalarProperty Name="EmployeeBasicInfo_MaritalStatus" ColumnName="EmployeeBasicInfo_MaritalStatus" />
+          <ScalarProperty Name="EmployeeBasicInfo_Gender" ColumnName="EmployeeBasicInfo_Gender" />
+          <ScalarProperty Name="EmployeeBasicInfo_VersionID" ColumnName="EmployeeBasicInfo_VersionID" />
+          <ScalarProperty Name="EmployeeBasicInfo_CategoryID" ColumnName="EmployeeBasicInfo_CategoryID" />
+          <ScalarProperty Name="EmployeeBasicInfo_DbOperationStatus" ColumnName="EmployeeBasicInfo_DbOperationStatus" />
+          <ScalarProperty Name="EmployeeBasicInfo_SectionID" ColumnName="EmployeeBasicInfo_SectionID" />
+          <ScalarProperty Name="EmployeeBasicInfo_ID" ColumnName="EmployeeBasicInfo_ID" />
+          <ScalarProperty Name="Branch_Name" ColumnName="Branch_Name" />
+          <ScalarProperty Name="ShiftSetup_Name" ColumnName="ShiftSetup_Name" />
+          <ScalarProperty Name="EmployeeStatus_Name" ColumnName="EmployeeStatus_Name" />
+          <ScalarProperty Name="EmployeeDepartment_Name" ColumnName="EmployeeDepartment_Name" />
+          <ScalarProperty Name="EmployeeType_Name" ColumnName="EmployeeType_Name" />
+          <ScalarProperty Name="Designation_Name" ColumnName="Designation_Name" />
+          <ScalarProperty Name="EmployeeBasicInfo_GovtSalaryGrade" ColumnName="EmployeeBasicInfo_GovtSalaryGrade" />
+          <ScalarProperty Name="EmployeeBasicInfo_IsGovtSalaryActive" ColumnName="EmployeeBasicInfo_IsGovtSalaryActive" />
+          <ScalarProperty Name="EmployeeBasicInfo_GovtAccount" ColumnName="EmployeeBasicInfo_GovtAccount" />
+          <ScalarProperty Name="EmployeeBasicInfo_InstituteAccount" ColumnName="EmployeeBasicInfo_InstituteAccount" />
+          <ScalarProperty Name="EmployeeBasicInfo_Status" ColumnName="EmployeeBasicInfo_Status" />
+          <ScalarProperty Name="EmployeeBasicInfo_PermanentDistrict" ColumnName="EmployeeBasicInfo_PermanentDistrict" />
+          <ScalarProperty Name="EmployeeBasicInfo_PermanentThana" ColumnName="EmployeeBasicInfo_PermanentThana" />
+          <ScalarProperty Name="EmployeeBasicInfo_PermanentPost" ColumnName="EmployeeBasicInfo_PermanentPost" />
+          <ScalarProperty Name="EmployeeBasicInfo_PermanentAddress" ColumnName="EmployeeBasicInfo_PermanentAddress" />
+          <ScalarProperty Name="EmployeeBasicInfo_PresentDistrict" ColumnName="EmployeeBasicInfo_PresentDistrict" />
+          <ScalarProperty Name="EmployeeBasicInfo_PresentThana" ColumnName="EmployeeBasicInfo_PresentThana" />
+          <ScalarProperty Name="EmployeeBasicInfo_PresentPost" ColumnName="EmployeeBasicInfo_PresentPost" />
+          <ScalarProperty Name="EmployeeBasicInfo_PresentAddress" ColumnName="EmployeeBasicInfo_PresentAddress" />
+          <ScalarProperty Name="EmployeeBasicInfo_Contact" ColumnName="EmployeeBasicInfo_Contact" />
+          <ScalarProperty Name="EmployeeBasicInfo_NationalID" ColumnName="EmployeeBasicInfo_NationalID" />
+          <ScalarProperty Name="EmployeeBasicInfo_DateOfBirth" ColumnName="EmployeeBasicInfo_DateOfBirth" />
+          <ScalarProperty Name="EmployeeBasicInfo_BloodGroup" ColumnName="EmployeeBasicInfo_BloodGroup" />
+          <ScalarProperty Name="EmployeeBasicInfo_Religion" ColumnName="EmployeeBasicInfo_Religion" />
+          <ScalarProperty Name="EmployeeBasicInfo_Nationality" ColumnName="EmployeeBasicInfo_Nationality" />
+          <ScalarProperty Name="EmployeeBasicInfo_MotherName" ColumnName="EmployeeBasicInfo_MotherName" />
+          <ScalarProperty Name="EmployeeBasicInfo_FatherName" ColumnName="EmployeeBasicInfo_FatherName" />
+          <ScalarProperty Name="EmployeeBasicInfo_Image" ColumnName="EmployeeBasicInfo_Image" />
+          <ScalarProperty Name="EmployeeBasicInfo_StatusID" ColumnName="EmployeeBasicInfo_StatusID" />
+          <ScalarProperty Name="EmployeeBasicInfo_JoiningDate" ColumnName="EmployeeBasicInfo_JoiningDate" />
+          <ScalarProperty Name="EmployeeBasicInfo_SubjectID" ColumnName="EmployeeBasicInfo_SubjectID" />
+          <ScalarProperty Name="EmployeeBasicInfo_DepartmentID" ColumnName="EmployeeBasicInfo_DepartmentID" />
+          <ScalarProperty Name="EmployeeBasicInfo_ShiftID" ColumnName="EmployeeBasicInfo_ShiftID" />
+          <ScalarProperty Name="EmployeeBasicInfo_BranchID" ColumnName="EmployeeBasicInfo_BranchID" />
+          <ScalarProperty Name="EmployeeBasicInfo_TypeID" ColumnName="EmployeeBasicInfo_TypeID" />
+          <ScalarProperty Name="EmployeeBasicInfo_IsClassTeacher" ColumnName="EmployeeBasicInfo_IsClassTeacher" />
+          <ScalarProperty Name="EmployeeBasicInfo_DesignationID" ColumnName="EmployeeBasicInfo_DesignationID" />
+          <ScalarProperty Name="EmployeeBasicInfo_Name" ColumnName="EmployeeBasicInfo_Name" />
+          <ScalarProperty Name="EmployeeBasicInfo_EmployeeID" ColumnName="EmployeeBasicInfo_EmployeeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
